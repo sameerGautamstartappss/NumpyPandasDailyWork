@@ -1,0 +1,67 @@
+miniconda.exe
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda environment files (if you want to share, ignore this)
+*.conda
+*.yml
+
+# Mac OS metadata files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore compiled files
+*.so
+*.dylib
+*.dll
+
+# Ignore OneDrive files cache (since your directory is in OneDrive)
+~$*
+
+# Ignore Python virtual environment folders
+__pypackages__/
+
