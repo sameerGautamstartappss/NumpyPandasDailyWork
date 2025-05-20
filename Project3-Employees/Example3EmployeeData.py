@@ -1,4 +1,4 @@
-# Q2. After loading the DataFrame, how would you:
+# Q3. After loading the DataFrame, how would you:
 # Show column names?
 
 # Check the number of rows and columns?

@@ -1,4 +1,4 @@
-# Q1. You have a CSV file named "sales.csv". Load it into pandas and show the first 5 rows.
+# Q2. You have a CSV file named "sales.csv". Load it into pandas and show the first 5 rows.
 
 import pandas as pd
 
