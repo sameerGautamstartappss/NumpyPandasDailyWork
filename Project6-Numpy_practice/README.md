@@ -1,20 +1,19 @@
-- NumPy is used to work with arrays.
-- The array object in numpy is called "ndarray"
-- We can create a numpy "ndarray" object using the "array()" function.
+- **NumPy** is a Python library used for working with arrays.
+- The main array object in NumPy is called an **ndarray**.
+- You can create an ndarray using the `array()` function from NumPy.
 
-- type() - This is built in python function that tells us the type of the object passed to it.
+- The `type()` function in Python returns the type of the object passed to it.
+- For a NumPy array, `type()` will return `numpy.ndarray`.
 
-- Here the type of the object in case of numpy array is "numpy.ndarray"
+- **Array Dimensions:**
+    - A dimension in an array refers to its level of depth or nesting.
 
-- A dimension in an array refers to the level of depth or nesting of arrays.
+    - **0-D Array (Scalar):**
+        - Each individual value in an array is a 0-D array, also known as a scalar.
 
-- 0-D array
-- Each value in an array is a 0-D array.
-- 0-D arrays, or scalars, are the elements in an array
+    - **1-D Array:**
+        - An array whose elements are 0-D arrays (scalars) is called a one-dimensional (1-D) array.
 
-- 1-D array
-- An array that has 0-D arrays as its elements is called uni-dimensional or 1-D array
-
-- 2-D array
-- An array that has 1-D array as its elements is called a 2-D array.
-- These are often used to represent matrix or 2nd order tensors
+    - **2-D Array:**
+        - An array whose elements are 1-D arrays is called a two-dimensional (2-D) array.
+        - 2-D arrays are commonly used to represent matrices or second-order tensors.
